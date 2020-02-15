@@ -15,3 +15,11 @@ https://www.acfun.cn/v/ac12931602
 https://www.bilibili.com/video/av89176364/
 
 Slide: SW01_intro.pdf
+
+###Introduction to Git###
+
+Video1: How to install git on windows
+
+https://www.acfun.cn/v/ac12933284
+
+https://www.bilibili.com/video/av89209560/
