@@ -33,3 +33,5 @@ Video2: Introduction to Git workflow
 https://www.acfun.cn/v/ac12934862
 
 https://www.bilibili.com/video/av89233252/
+
+Video3: initialize Git repository
