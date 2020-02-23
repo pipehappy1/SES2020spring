@@ -12,4 +12,4 @@ nature of this study format, we will steer the course through a series of self-c
 
 ## Unit 2: Agile Programming
 
-We will have 2 parts in this unit. In the first part, we go through an agile method called Scrum. In this second part, we will talk about object oriented programming in C++ and Python.
+We will have 2 parts in this unit. In the first part, we go through an agile method called Scrum. In this second part, we will talk about Python.
