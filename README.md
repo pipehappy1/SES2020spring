@@ -11,6 +11,8 @@ nature of this study format, we will steer the course through a series of self-c
 
 ## Unit 1: Introduction to Software Engineering and Git
 
+In the introduction to software engneering, we will cover the concept of software, software engineering, and software crisis. We also show the basic workflow of Git, the distributed version control system.
+
 ## Unit 2: Agile Programming
 
 We will have 2 parts in this unit. In the first part, we go through an agile method called Scrum. In this second part, we will talk about Python.
