@@ -30,21 +30,29 @@ https://docs.conda.io/en/latest/miniconda.html
 
 Video 1: Variables
 
+https://www.acfun.cn/v/ac13164403_1
+
 Video 2: Control flow, branching
+
+https://www.acfun.cn/v/ac13164403_2
 
 video 3: List, tuple, and dict
 
+https://www.acfun.cn/v/ac13164403_3
+
 Video 4: Control flow, loop
 
-Video 5: Function
+https://www.acfun.cn/v/ac13164403_4
 
-Video 6: Module
+Video 5: Function and Module
+
+https://www.acfun.cn/v/ac13164403_5
+
 
 ### Exercise
 
-1. Create account on Github/Gitlab.
-2. Use the Git command learned to grab content from https://github.com/pipehappy1/SES2020spring to your repository on Github/Gitlab.
-3. Comment on the issue https://github.com/pipehappy1/SES2020spring/issues/1 with the link to your repository.
+1. Write a Python code to count the words in this readme.
+2. Use Git to commit your code in unit2 directory and push to your repository. Also comment on the issue with the link to your code.
 
 ## Reference
 
