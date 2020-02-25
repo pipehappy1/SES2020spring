@@ -17,7 +17,7 @@ def count_word(file):
             words += len(word)
         return words
         
-file = './test.md'
+file = './readme.md'
 
 if os.path.isfile(file):
     words = count_word(file)
