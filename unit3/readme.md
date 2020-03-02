@@ -11,7 +11,7 @@ Video 1: Introduction to object-oriented design
 
 https://www.acfun.cn/v/ac13359323
 
-## Midterm projects
+## Midterm project
 
 In a box on a 2 dimensional surface bounded by [-1, 1] on both x and y axis,
 given m circles (they cannot overlap) with variable radius r and center (x_m, y_m),
