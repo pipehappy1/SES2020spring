@@ -1,0 +1,111 @@
+
+
+syms m;
+
+m=input('ÇëÊäÈëm:');
+
+if m==1
+
+    x=0;
+
+    y=0;
+
+    r=1;
+
+    %theta=0:2*pi/3600:2*pi;
+
+    %X=x+r*cos(theta);
+
+    %Y=y+r*sin(theta);
+
+    disp(r);
+
+elseif m==2
+
+    x1=0;
+
+    y1=0;
+
+    r1=1;
+
+    syms x2 r2;
+
+    eq1=sqrt(2*(x2-sqrt(2)/2)^2)-r2;
+
+    eq2=1-x2-r2;
+
+    s=solve(eq1,eq2,x2,r2);
+
+    R=min(s.r2);
+
+    r=r1+R^2;
+
+    disp(r);
+
+elseif m==3
+
+    x1=0;
+
+    y1=0;
+
+    r1=1;
+
+    syms x2 r2;
+
+    eq1=sqrt(2*(x2-sqrt(2)/2)^2)-r2;
+
+    eq2=1-x2-r2;
+
+    s=solve(eq1,eq2,x2,r2);
+
+    R=min(s.r2);
+
+    r=r1+2*R^2;
+
+    disp(r);
+
+elseif m==4
+
+    x1=0;
+
+    y1=0;
+
+    r1=1;
+
+    syms x2 r2;
+
+    eq1=sqrt(2*(x2-sqrt(2)/2)^2)-r2;
+
+    eq2=1-x2-r2;
+
+    s=solve(eq1,eq2,x2,r2);
+
+    R=min(s.r2);
+
+    r=r1+3*R^2;
+
+    disp(r);
+
+elseif m==5
+
+    x1=0;
+
+    y1=0;
+
+    r1=1;
+
+    syms x2 r2;
+
+    eq1=sqrt(2*(x2-sqrt(2)/2)^2)-r2;
+
+    eq2=1-x2-r2;
+
+    s=solve(eq1,eq2,x2,r2);
+
+    R=min(s.r2);
+
+    r=r1+4*R^2;
+
+    disp(r);
+
+end
