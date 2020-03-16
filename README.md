@@ -21,6 +21,10 @@ We will have 2 parts in this unit. In the first part, we go through an agile met
 
 ## Unit 4: Unit Test
 
+## Final Project:
+
+
+
 ## Q&A
 
 Q: Do we have a syllabus for this course? What's the goal of this course?
