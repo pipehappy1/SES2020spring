@@ -24,7 +24,8 @@ import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 
 class unit_test(unittest.TestCase):
-    def 
+    def test(self):
+        self.assertEqual(False,False)
 
 
 #定义圆类
