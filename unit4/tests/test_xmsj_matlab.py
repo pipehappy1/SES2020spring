@@ -15,7 +15,7 @@ Dijx=0
 Dijy=0
 dijx=0
 dijy=0
-while (abs((4 - m*pi*r*r) / 4) > 0.01):
+while (abs((4 - m*pi*r*r) / 4) > 0.1):
   for i in range(m):
    for j in range(m):
     if i != j:
@@ -42,4 +42,6 @@ for q in range(m):
    y=cos(theta)
    plt.plot(Px[q]+r*x,Py[q]+r*y,'r')
    
-plt.show()
+plt.ion()
+plt.pause(5)
+plt.close()
