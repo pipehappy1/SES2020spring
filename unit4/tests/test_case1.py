@@ -4,8 +4,6 @@ from Unit_3 import circle
 from Unit_3 import *
 
 class TestCircle(unittest.TestCase):
-    def test_case1(self):
-        self.assertEqual(True, True)
     def setUp(self):
         self.c1 = circle(1,0,0)
         self.c2 = circle(1,1,0)
@@ -34,7 +32,7 @@ class TestCircle(unittest.TestCase):
         self.assertLessEqual(MR,2)
         
     def test_FindMaxCircle(self):
-        m = 10
+        m = 20
         c_list = FindMaxCircuit(m)
         RR = 0
         for c in c_list:
