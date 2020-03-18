@@ -23,7 +23,7 @@ We will have 2 parts in this unit. In the first part, we go through an agile met
 
 ## Final Project:
 
-
+Please form a team with 3~4 members and pick a project.
 
 ## Q&A
 
