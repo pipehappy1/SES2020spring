@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
-from FindMCircle import circle
-from FindMCircle import *
+from Unit_3 import circle
+from Unit_3 import *
 
 class TestCircle(unittest.TestCase):
     def setUp(self):
@@ -30,7 +30,7 @@ class TestCircle(unittest.TestCase):
         print(MR)
         self.assertLessEqual(MR,2)
         
-    def test_FindMaxCircle(self):
+    def test_FindMaxCircuit(self):
         m = 10
         c_list = FindMaxCircuit(m)
         RR = 0
