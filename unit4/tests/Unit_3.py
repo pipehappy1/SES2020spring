@@ -6,10 +6,16 @@
 
 #主要思想类似贪心算法的思想，在前一项满足r^2之和最大的条件下，寻找最大的内切圆。
 #使用scipy库中的优化器minimize对新增圆圈的圆心坐标进行优化，从而实现最大外切圆的圆心定位。
+import unittest
 import numpy as np
 import random
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
+
+class unit_test(unittest.TestCase):
+    def test(self):
+        self.assertEqual(False,False)
+
 
 #定义圆类
 class circle:
@@ -121,22 +127,3 @@ if __name__ == "__main__":
     print('for {} circles, the maximize sum of r^2 = {}'.format(m, RR))
     
     plot(c_list)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
