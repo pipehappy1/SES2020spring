@@ -23,7 +23,7 @@ We will have 2 parts in this unit. In the first part, we go through an agile met
 
 ## Final Project:
 
-Please form a team with 3~4 members and pick a project.
+Please form a team with 3~4 members and pick a project from http://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/.
 
 ## Q&A
 
