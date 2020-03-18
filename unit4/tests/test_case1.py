@@ -4,6 +4,8 @@ from Unit_3 import circle
 from Unit_3 import *
 
 class TestCircle(unittest.TestCase):
+    def test_case1(self):
+        self.assertEqual(True, True)
     def setUp(self):
         self.c1 = circle(1,0,0)
         self.c2 = circle(1,1,0)
