@@ -1,8 +1,10 @@
 import numpy as np
 import random as rd
 import math
+import matplotlib
 from math import pi
 from numpy import cos, sin
+from matplotlib import pyplot as plt
 
 m=5
 r=0
@@ -35,7 +37,12 @@ while (abs((4 - m*pi*r*r) / 4) > 0.1):
   print(r)
   print(abs(4 - m*pi*r*r / 4))
 theta=[i*pi/180 for i in range(0,360)]
-
+fig=plt.figure()
 for q in range(m):
    x=sin(theta)
    y=cos(theta)
+   plt.plot(Px[q]+r*x,Py[q]+r*y,'r')
+   
+plt.ion()
+plt.pause(5)
+plt.close()
