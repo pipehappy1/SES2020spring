@@ -1,7 +1,6 @@
 import numpy as np
 import random as rd
 import math
-import matplotlib
 from math import pi
 from numpy import cos, sin
 

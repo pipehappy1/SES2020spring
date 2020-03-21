@@ -7,8 +7,7 @@ python:
   - "nightly"  # nightly build
 # command to install dependencies
 # install:
-activate tensorflow
-pip install matplotlib
+
 # command to run tests
 script:
   - pytest ./unit4/tests/
