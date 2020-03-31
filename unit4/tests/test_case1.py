@@ -3,7 +3,7 @@ import numpy as np
 from circle_pack import circle
 from circle_pack import *
 
-class Test_pack(unittest.TestCase)
+class test_case1(unittest.TestCase)
     def test_initialize(self):
         self.c1 = circle(0,0,0)
         self.c2 = circle(1,1,1)
