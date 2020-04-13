@@ -17,16 +17,11 @@ m=50, sum of r^2 =1.21
 m=100, sum of r^2 =1.23
 保存的图在unit3中
 """
-import unittest
+
 import numpy as np
 import random
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
-
-class unit_test(unittest.TestCase):
-    def test(self):
-        self.assertEqual(False,False)
-
 
 #定义圆类
 class circle:
