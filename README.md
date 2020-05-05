@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the complementary material for 项目实践 in 2020 spring.
+This repository contains the complementary material for 项目实践 and 机器学习基础 in 2020 spring.
 Due to the distributed and
 asynchronous
 nature of this study format, we will steer the course through a series of self-contained units around programming, visualization, and simulation, which may be your interest for your future endeavor or not. This course tries to fulfill this arrangement by introducing some tools and demonstrating their capacity. 
@@ -46,3 +46,17 @@ A: Exercise of some units will be for individual, while other exercises require 
 Q: What about students with a computer at his/her disposal?
 
 A: We provide reference in each unit and some reading instruction. This is for students without computers.
+
+## 机器学习基础
+
+### 简介
+
+https://www.bilibili.com/video/BV1Wz4y1R7dh/
+
+### 逻辑回归
+
+### 人工神经网络
+
+### 卷积网络
+
+### 其他神经网络模型
