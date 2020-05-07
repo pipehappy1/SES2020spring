@@ -51,7 +51,11 @@ A: We provide reference in each unit and some reading instruction. This is for s
 
 ### 简介
 
-https://www.bilibili.com/video/BV1Wz4y1R7dh/
+1. Machine learning and related terms.
+2. Types of problem discussed in machine learning.
+3. Introduction to neural networks.
+
+The material is in c1_intro.
 
 ### 逻辑回归
 
