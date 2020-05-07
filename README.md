@@ -59,8 +59,40 @@ The material is in c1_intro.
 
 ### 逻辑回归
 
+1. logistic regression
+2. stochastic gradient descent
+3. input normalization
+4. oversampling/undersampling
+5. capacity/overfitting/underfitting
+
+### Exercise 1
+
+The task in this exercise is for you to apply logistic regression on ``Breast Cancer Wisconsin (Diagnostic) Data Set''.
+
+* You can set train/test split to 0.7/0.3 or any value you like.
+* You can choose your favorite tool besides PyTorch.
+* Post your answer in a pull request to this repository.
+* Discuss with each other while try to work the code out by yourself.
+
+There is a piece of code demonstrating logistic regression using PyTorch.  mlex1/lr.py
+
+The data is available at https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+
+The data is also available on Kaggle: https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
+
+Note:
+
+* UC Irvine Machine Learning Repository is the classic goto site to find some machine learning dataset.
+* Kaggle is a popular machine learning competition site.
+
 ### 人工神经网络
+
+1. Ensamble models by bagging/stacking/boosting
+2. MLP by stacking logistic regression
+3. Auto difference i.e. back propagation
 
 ### 卷积网络
 
 ### 其他神经网络模型
+
+### Exercise 2
