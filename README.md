@@ -64,7 +64,7 @@ The material is in c1_intro.
 3. input normalization
 4. oversampling/undersampling
 
-[pdf](https://github.com/pipehappy1/SES2020spring/blob/master/C2_logistic_regression.pdf)
+[pdf for logistic regression](https://github.com/pipehappy1/SES2020spring/blob/master/C2_logistic_regression.pdf)
 
 ### Exercise 1
 
