@@ -63,7 +63,6 @@ The material is in c1_intro.
 2. stochastic gradient descent
 3. input normalization
 4. oversampling/undersampling
-5. capacity/overfitting/underfitting
 
 ### Exercise 1
 
