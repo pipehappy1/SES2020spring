@@ -66,6 +66,8 @@ The material is in c1_intro.
 
 [video for logistic regression, A](https://www.acfun.cn/v/ac15394923)
 
+[video for logistic regression, B](https://www.bilibili.com/video/BV1Ta4y1i7E4/)
+
 [pdf for logistic regression](https://github.com/pipehappy1/SES2020spring/blob/master/C2_logistic_regression.pdf)
 
 ### Exercise 1
