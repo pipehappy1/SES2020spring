@@ -64,7 +64,7 @@ The material is in c1_intro.
 3. input normalization
 4. oversampling/undersampling
 
-[video for logistic regression](https://www.acfun.cn/v/ac15394923)
+[video for logistic regression, A](https://www.acfun.cn/v/ac15394923)
 
 [pdf for logistic regression](https://github.com/pipehappy1/SES2020spring/blob/master/C2_logistic_regression.pdf)
 
