@@ -55,6 +55,10 @@ A: We provide reference in each unit and some reading instruction. This is for s
 2. Types of problem discussed in machine learning.
 3. Introduction to neural networks.
 
+[video: introduction to machine learning @acfun](https://www.acfun.cn/v/ac15348189)
+
+[video: introduction to machine learning @bilibili](https://www.bilibili.com/video/BV1Wz4y1R7dh/)
+
 The material is in c1_intro.
 
 ### 逻辑回归
@@ -64,9 +68,9 @@ The material is in c1_intro.
 3. input normalization
 4. oversampling/undersampling
 
-[video for logistic regression, A](https://www.acfun.cn/v/ac15394923)
+[video for logistic regression, @acfun](https://www.acfun.cn/v/ac15394923)
 
-[video for logistic regression, B](https://www.bilibili.com/video/BV1Ta4y1i7E4/)
+[video for logistic regression, @bilibili](https://www.bilibili.com/video/BV1Ta4y1i7E4/)
 
 [pdf for logistic regression](https://github.com/pipehappy1/SES2020spring/blob/master/C2_logistic_regression.pdf)
 
@@ -95,6 +99,8 @@ Note:
 1. Ensamble models by bagging/stacking/boosting
 2. MLP by stacking logistic regression
 3. Auto difference i.e. back propagation
+
+
 
 ### 卷积网络
 
