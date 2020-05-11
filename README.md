@@ -103,7 +103,7 @@ Note:
 Videos:
 
 * [multiLayer-perceptron @acfun](https://www.acfun.cn/v/ac15453604)
-*[multiLayer-perceptron @bilibili](https://www.bilibili.com/video/BV125411s7sH/)
+* [multiLayer-perceptron @bilibili](https://www.bilibili.com/video/BV125411s7sH/)
 * [back propagation @acfun](https://www.acfun.cn/v/ac15453964)
 * [back propagation @bilibili](https://www.bilibili.com/video/BV1Ai4y147Aj/)
 
