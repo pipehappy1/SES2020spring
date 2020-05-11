@@ -100,19 +100,18 @@ Note:
 2. MLP by stacking logistic regression
 3. Auto difference i.e. back propagation
 
-[videos: multiLayer-perceptron @acfun](https://www.acfun.cn/v/ac15453604)
+Videos:
 
-[videos: multiLayer-perceptron @bilibili](https://www.bilibili.com/video/BV125411s7sH/)
+* [multiLayer-perceptron @acfun](https://www.acfun.cn/v/ac15453604)
+*[multiLayer-perceptron @bilibili](https://www.bilibili.com/video/BV125411s7sH/)
+* [back propagation @acfun](https://www.acfun.cn/v/ac15453964)
+* [back propagation @bilibili](https://www.bilibili.com/video/BV1Ai4y147Aj/)
 
-[videos: back propagation @acfun](https://www.acfun.cn/v/ac15453964)
+pdfs:
 
-[videos: back propagation @bilibili](https://www.bilibili.com/video/BV1Ai4y147Aj/)
-
-[Perceptron and multiLayer-perceptron](https://github.com/pipehappy1/SES2020spring/blob/master/c3_mlp/c3_mlp.pdf)
-
-[Back propagation slides from Stanford cs231n](https://github.com/pipehappy1/SES2020spring/blob/master/c3_mlp/lecture_4.pdf)
-
-[Back propagation slides from Stanford cs231n (source)](http://cs231n.stanford.edu/slides/2020/lecture_4.pdf)
+* [Perceptron and multiLayer-perceptron](https://github.com/pipehappy1/SES2020spring/blob/master/c3_mlp/c3_mlp.pdf)
+* [Back propagation slides from Stanford cs231n](https://github.com/pipehappy1/SES2020spring/blob/master/c3_mlp/lecture_4.pdf)
+* [Back propagation slides from Stanford cs231n (source)](http://cs231n.stanford.edu/slides/2020/lecture_4.pdf)
 
 ### 卷积网络
 
