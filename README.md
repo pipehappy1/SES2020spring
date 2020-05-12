@@ -119,6 +119,15 @@ pdfs:
 2. Other layers often used in CNN
 3. Learning tricks
 
+Videos:
+
+* [CNN @acfun](https://www.acfun.cn/v/ac15496062)
+* [CNN @bilibili](https://www.bilibili.com/video/BV16K411W7ma)
+
+pdf:
+
+* [CNN](http://cs231n.stanford.edu/slides/2020/lecture_5.pdf)
+
 ### 其他神经网络模型
 
 ### Exercise 2
