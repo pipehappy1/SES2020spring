@@ -131,3 +131,9 @@ pdf:
 ### 其他神经网络模型
 
 ### Exercise 2
+
+Please go through [deep learning with PyTorch: a 60 minute blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+by yourself. You can post any question in the QQ chat group if you'd like to discuss.
+
+* Use [conda](https://docs.conda.io/en/latest/miniconda.html) to manage and install the packages.
+* Goto [PyTorch](https://pytorch.org/) to find the command to install PyTorch.
