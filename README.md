@@ -130,6 +130,15 @@ pdf:
 
 ### 其他神经网络模型
 
+Videos:
+
+* [pretrained CNN @acfun](https://www.acfun.cn/v/ac15537219)
+* [pretrained CNN @bilibili](https://www.bilibili.com/video/BV1of4y117sk)
+
+pdf:
+
+* [pretrained CNN](http://cs231n.stanford.edu/slides/2020/lecture_9.pdf)
+
 ### Exercise 2
 
 Please go through [deep learning with PyTorch: a 60 minute blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
