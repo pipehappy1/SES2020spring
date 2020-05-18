@@ -1,0 +1,200 @@
+**********
+epoch 20
+loss is 0.5268
+accuracy is 0.7764
+**********
+epoch 40
+loss is 0.4016
+accuracy is 0.8769
+**********
+epoch 60
+loss is 0.3336
+accuracy is 0.9121
+**********
+epoch 80
+loss is 0.2925
+accuracy is 0.9296
+**********
+epoch 100
+loss is 0.2643
+accuracy is 0.9372
+**********
+epoch 120
+loss is 0.2434
+accuracy is 0.9422
+**********
+epoch 140
+loss is 0.2270
+accuracy is 0.9447
+**********
+epoch 160
+loss is 0.2138
+accuracy is 0.9472
+**********
+epoch 180
+loss is 0.2028
+accuracy is 0.9497
+**********
+epoch 200
+loss is 0.1936
+accuracy is 0.9523
+**********
+epoch 220
+loss is 0.1856
+accuracy is 0.9523
+**********
+epoch 240
+loss is 0.1787
+accuracy is 0.9523
+**********
+epoch 260
+loss is 0.1727
+accuracy is 0.9548
+**********
+epoch 280
+loss is 0.1673
+accuracy is 0.9573
+**********
+epoch 300
+loss is 0.1625
+accuracy is 0.9573
+**********
+epoch 320
+loss is 0.1582
+accuracy is 0.9573
+**********
+epoch 340
+loss is 0.1544
+accuracy is 0.9573
+**********
+epoch 360
+loss is 0.1508
+accuracy is 0.9648
+**********
+epoch 380
+loss is 0.1476
+accuracy is 0.9648
+**********
+epoch 400
+loss is 0.1447
+accuracy is 0.9673
+**********
+epoch 420
+loss is 0.1420
+accuracy is 0.9673
+**********
+epoch 440
+loss is 0.1395
+accuracy is 0.9673
+**********
+epoch 460
+loss is 0.1371
+accuracy is 0.9673
+**********
+epoch 480
+loss is 0.1350
+accuracy is 0.9673
+**********
+epoch 500
+loss is 0.1330
+accuracy is 0.9724
+**********
+epoch 520
+loss is 0.1311
+accuracy is 0.9724
+**********
+epoch 540
+loss is 0.1293
+accuracy is 0.9724
+**********
+epoch 560
+loss is 0.1276
+accuracy is 0.9724
+**********
+epoch 580
+loss is 0.1261
+accuracy is 0.9724
+**********
+epoch 600
+loss is 0.1246
+accuracy is 0.9724
+**********
+epoch 620
+loss is 0.1232
+accuracy is 0.9724
+**********
+epoch 640
+loss is 0.1219
+accuracy is 0.9724
+**********
+epoch 660
+loss is 0.1206
+accuracy is 0.9749
+**********
+epoch 680
+loss is 0.1194
+accuracy is 0.9749
+**********
+epoch 700
+loss is 0.1183
+accuracy is 0.9749
+**********
+epoch 720
+loss is 0.1172
+accuracy is 0.9749
+**********
+epoch 740
+loss is 0.1161
+accuracy is 0.9749
+**********
+epoch 760
+loss is 0.1151
+accuracy is 0.9749
+**********
+epoch 780
+loss is 0.1142
+accuracy is 0.9749
+**********
+epoch 800
+loss is 0.1133
+accuracy is 0.9749
+**********
+epoch 820
+loss is 0.1124
+accuracy is 0.9749
+**********
+epoch 840
+loss is 0.1116
+accuracy is 0.9774
+**********
+epoch 860
+loss is 0.1108
+accuracy is 0.9774
+**********
+epoch 880
+loss is 0.1100
+accuracy is 0.9774
+**********
+epoch 900
+loss is 0.1092
+accuracy is 0.9774
+**********
+epoch 920
+loss is 0.1085
+accuracy is 0.9774
+**********
+epoch 940
+loss is 0.1078
+accuracy is 0.9774
+**********
+epoch 960
+loss is 0.1071
+accuracy is 0.9774
+**********
+epoch 980
+loss is 0.1065
+accuracy is 0.9774
+**********
+epoch 1000
+loss is 0.1059
+accuracy is 0.9774
