@@ -1,4 +1,4 @@
-# SES2020spring
+# Exercise 1
 
 # The code is in ML_1.py, please let data.csv and ML_1.py in the same file.
 
