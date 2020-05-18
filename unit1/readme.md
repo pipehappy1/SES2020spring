@@ -46,6 +46,10 @@ The same set of video could also be found on bilibili.com.
 2. Use the Git command learned to grab content from https://github.com/pipehappy1/SES2020spring to your repository on Github/Gitlab.
 3. Comment on the issue https://github.com/pipehappy1/SES2020spring/issues/1 with the link to your repository.
 
+Suggested answer can be found at
+
+https://www.acfun.cn/v/ac13147490
+
 ### Reference
 
 1. Ian Sommerville, Software Engineering (10th Edition), 2015.
