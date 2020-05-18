@@ -1,0 +1,72 @@
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+import torch
+
+dataset = pd.read_csv('data.csv')
+diagnosis_coding = {'M':1, 'B':0}
+dataset.diagnosis = dataset.diagnosis.map(diagnosis_coding)
+
+dataset.drop(['id','Unnamed: 32'], axis = 1, inplace = True)
+
+data_all = np.array(dataset.iloc[:,1:])
+label_all = np.array(dataset['diagnosis'])
+
+for i in range(data_all.shape[1]):
+    mean = np.mean(data_all[:,i])
+    std = np.std(data_all[:,i])
+    data_all[:,i] = (data_all[:,i] - mean)/std
+
+x_train, x_test, y_train, y_test = train_test_split(data_all,label_all,train_size = 0.7)
+x_train = torch.tensor(x_train).type(torch.FloatTensor)
+x_test = torch.tensor(x_test).type(torch.FloatTensor)
+y_train = torch.tensor(y_train).type(torch.FloatTensor)
+y_test = torch.tensor(y_test).type(torch.FloatTensor)
+
+#our model
+class LogisticRegression(torch.nn.Module):
+    def __init__(self):
+        super(LogisticRegression, self).__init__()
+        self.linear = torch.nn.Linear(30, 1)
+        self.sigmoid = torch.nn.Sigmoid()
+
+    def forward(self, x):
+        x = self.linear(x)
+        x = self.sigmoid(x)
+        return x
+
+model = LogisticRegression()
+if torch.cuda.is_available():
+    model.cuda()
+criterion = torch.nn.BCELoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=1e-3, momentum=0.9)
+
+f = open("result.txt", 'w')
+
+#training model
+for epoch in range(1000):
+    if torch.cuda.is_available():
+        data = torch.autograd.Variable(x_train).cuda()
+        label = torch.autograd.Variable(y_train).cuda()
+    else:
+        data = torch.autograd.Variable(x_train)
+        label = torch.autograd.Variable(y_train)
+    out = model(data)
+    loss = criterion(out, label)
+    print_loss = loss.data.item()
+    predict = out.ge(0.5).float()
+    correct = 0
+    for i in range(label.size(0)):
+        if predict[i] == label[i]:
+            correct += 1
+    acc = correct / label.size(0)
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+
+    if (epoch + 1) % 20 == 0:
+        print('*'*10,file = f)
+        print('epoch {}'.format(epoch+1),file = f)
+        print('loss is {:.4f}'.format(print_loss),file = f)
+        print('accuracy is {:.4f}'.format(acc),file = f)
+f.close()
