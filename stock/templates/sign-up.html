@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" href='/static/style.css' />
+</head>
+<body>
+
+  <h2>Create a new account</h2>
+
+<form action="/v1/new-user" method="post" class="new-user">
+  <div class="new-user">
+    <label for="name">Enter username: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="new-user">
+    <label for="description">Enter new location description: </label>
+    <input type="text" name="description" id="description" required>
+  </div>
+  <div class="new-user">
+    <input type="submit" value="New QR code!">
+  </div>
+</form>
+
+<hr />
+
+<a href='/'>Home</a>
+  
+</body>
+</html>

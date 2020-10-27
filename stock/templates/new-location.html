@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel="stylesheet" href='/static/style.css' />
+</head>
+<body>
+
+  <h2>New location</h2>
+
+  <div class="new-location-result" id="new-location-result" style="display: {{ hidden_or_show }};">
+    <div>Place holder for QR code: </div><label>{{ qr }}</label>
+    <div class="new-location-result-info">
+      <div class="new-location-result-item">
+	<label>name:</label>
+	<label>{{ name }}</label>
+      </div>
+      <div class="new-location-result-item">
+	<label>description:</label>
+	<label>{{ description }}</label>
+      </div>
+    </div>
+  </div>
+  
+  <hr />
+  
+<form action="/v1/new-location" method="post" class="new-location">
+  <div class="new-location">
+    <label for="name">Enter new location name: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="new-location">
+    <label for="description">Enter new location description: </label>
+    <input type="text" name="description" id="description" required>
+  </div>
+  <div class="new-location">
+    <input type="submit" value="New QR code!">
+  </div>
+</form>
+
+<hr />
+
+<a href='/'>Home</a>
+  
+</body>
+</html>
