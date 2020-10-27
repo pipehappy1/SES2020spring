@@ -7,7 +7,7 @@
   <h2>New location</h2>
 
   <div class="new-location-result" id="new-location-result" style="display: {{ hidden_or_show }};">
-    <div>Place holder for QR code: </div><label>{{ qr }}</label>
+    <div id="qrcode-place-holder"></div><label id="qrid">{{ qr }}</label>
     <div class="new-location-result-info">
       <div class="new-location-result-item">
 	<label>name:</label>
@@ -39,6 +39,9 @@
 <hr />
 
 <a href='/'>Home</a>
+
+<script type="application/javascript" src="/static/qrcodegen.js"></script>
+<script type="application/javascript" src="/static/qrcodegen-new-location.js"></script>
   
 </body>
 </html>

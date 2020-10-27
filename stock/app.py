@@ -6,6 +6,10 @@ app = Flask(__name__)
 
 counter = 0
 
+host = "127.0.0.1"
+user = "yguan"
+passwd = "123456"
+db = "test"
 
 @app.route('/')
 def index():
@@ -25,10 +29,9 @@ def new_location():
         m.update(description.encode('utf-8'))
         qrid = m.hexdigest()[:16]
 
-        host = "127.0.0.1"
-        user = "yguan"
-        passwd = "123456"
-        cnx = mysql.connector.connect(user=user, database='test', passwd=passwd, ssl_disabled=True, auth_plugin='mysql_native_password')
+
+        global host, user, passwd, db
+        cnx = mysql.connector.connect(user=user, database=db, passwd=passwd, ssl_disabled=True, auth_plugin='mysql_native_password')
         cursor = cnx.cursor()
         add_location = ( "insert into location"
                          "(name, qrid, description)"
@@ -51,7 +54,28 @@ def new_location():
                                description="",
                                qr="")
     
+@app.route('/v1/list-location')
+def list_location():
 
+    global host, user, passwd, db
+    cnx = mysql.connector.connect(user=user, database=db, passwd=passwd, ssl_disabled=True, auth_plugin='mysql_native_password')
+    cursor = cnx.cursor()
+    add_location = ( "select * from location" )
+    
+    cursor.execute(add_location)
+
+    items = []
+    for (rid, name, qrid, description) in cursor:
+        print("{}, {}, {}, {}", rid, name, qrid, description)
+        an_item = dict(name=name, description=description)
+        items.append(an_item)
+
+    cursor.close()
+    cnx.close()
+    
+    return render_template('list-location.html', items=items)
+
+    
 @app.route('/cakes')
 def cakes():
     global counter
