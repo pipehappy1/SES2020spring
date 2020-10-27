@@ -29,7 +29,7 @@ def new_location():
         m.update(description.encode('utf-8'))
         qrid = m.hexdigest()[:16]
 
-
+        # TODO: test duplication itmes before inseration.
         global host, user, passwd, db
         cnx = mysql.connector.connect(user=user, database=db, passwd=passwd, ssl_disabled=True, auth_plugin='mysql_native_password')
         cursor = cnx.cursor()
@@ -75,6 +75,10 @@ def list_location():
     
     return render_template('list-location.html', items=items)
 
+@app.route('/v1/scan-location')
+def scan_location():
+
+    return render_template('scan-location.html')
     
 @app.route('/cakes')
 def cakes():
