@@ -154,6 +154,4 @@ by yourself. You can post any question in the QQ chat group if you'd like to dis
 ## Stock managment system
 
 The stock managment system development is the main focus for 项目实践 in 2020 fall.
-The an example repository can be found in ./stock.
-
-
+The example repository can be found in ./stock.
