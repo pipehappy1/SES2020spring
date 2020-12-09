@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href='/static/style.css' />
+</head>
+<body>
+
+  <h2>List all locations</h2>
+
+  <table>
+    <tr>
+      <th>name</th>
+      <th>description</th>
+    </tr>
+  {% for item in items %}
+  <tr>
+     <TD class="c2">{{item.name}}</TD>
+     <TD class="c3">{{item.description}}</TD>
+  </tr>
+  {% endfor %}
+  </table>  
+
+<hr />
+
+<a href='/'>Home</a>
+  
+</body>
+</html>

@@ -150,3 +150,10 @@ by yourself. You can post any question in the QQ chat group if you'd like to dis
 
 * Use [conda](https://docs.conda.io/en/latest/miniconda.html) to manage and install the packages.
 * Goto [PyTorch](https://pytorch.org/) to find the command to install PyTorch.
+
+## Stock managment system
+
+The stock managment system development is the main focus for 项目实践 in 2020 fall.
+The an example repository can be found in ./stock.
+
+

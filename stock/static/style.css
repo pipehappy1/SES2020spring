@@ -1,0 +1,29 @@
+body {
+    background: #90ee90;
+    color: blue;
+}
+
+form.new-location {
+    display: table;
+}
+
+div.new-location {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+div.new-location-result-info {
+    display: table;
+}
+
+div.new-location-result-item {
+    display: table-row;
+}
