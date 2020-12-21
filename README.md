@@ -8,7 +8,7 @@ asynchronous
 nature of this study format,
 we will steer the course through a series of self-contained units around programming, visualization, and simulation,
 which may be your interest for your future endeavor.
-This course tries to fulfill this arrangement by introducing some tools and demonstrating their capacity.
+This course tries to fulfill this arrangement by introducing some tools and demonstrating their capability.
 
 A quck list of topics:
 
