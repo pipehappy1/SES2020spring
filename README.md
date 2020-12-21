@@ -12,9 +12,9 @@ This course tries to fulfill this arrangement by introducing some tools and demo
 
 A quck list of topics:
 
-    1. [Computer and software](#Computer-and-Software)
-    2. [Machine learning](#机器学习基础)
-    3. [Motor](#Motor)
+1. [Computer and software](#Computer-and-Software)
+2. [Machine learning](#机器学习基础)
+3. [Motor](#Motor)
 
 
 ## Motor
@@ -31,13 +31,13 @@ There are AC motors, BLDC motor, and other types of motor, we will first start t
 
 The introduction for the DC motor driver project is presented here:
 
-    [pdf for introduction to the brush DC motor driver](https://github.com/pipehappy1/SES2020spring/blob/master/dc_motor/intro.pdf)
+[pdf for introduction to the brush DC motor driver](https://github.com/pipehappy1/SES2020spring/blob/master/dc_motor/intro.pdf)
 
 The videos that show how to use KiCAD to produce a PCB board is listed here:
 
-    1. Plot the schematic design: [@acfun](https://www.acfun.cn/v/ac20783731), [@bilibili](https://www.bilibili.com/video/BV1Ea411c73K/),
-    2. Assign footprint for the component: [@acfun](https://www.acfun.cn/v/ac20784691), [@bilibili](https://www.bilibili.com/video/BV12T4y1M7ez/).
-    3. Layout the PCB: [@acfun](https://www.acfun.cn/v/ac20864316), [@bilibili](https://www.bilibili.com/video/BV115411G7ef/).
+1. Plot the schematic design: [@acfun](https://www.acfun.cn/v/ac20783731), [@bilibili](https://www.bilibili.com/video/BV1Ea411c73K/),
+2. Assign footprint for the component: [@acfun](https://www.acfun.cn/v/ac20784691), [@bilibili](https://www.bilibili.com/video/BV12T4y1M7ez/).
+3. Layout the PCB: [@acfun](https://www.acfun.cn/v/ac20864316), [@bilibili](https://www.bilibili.com/video/BV115411G7ef/).
 
 Please do you research and find proper components to build up the PCB board for 4-channel DC driver.
 
