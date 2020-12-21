@@ -2,34 +2,78 @@
 
 ## Introduction
 
-This repository contains the complementary material for 项目实践 and 机器学习基础 in 2020 spring.
+This repository contains the complementary material for 项目实践 and 机器学习基础 taught at SES.
 Due to the distributed and
 asynchronous
-nature of this study format, we will steer the course through a series of self-contained units around programming, visualization, and simulation, which may be your interest for your future endeavor or not. This course tries to fulfill this arrangement by introducing some tools and demonstrating their capacity. 
+nature of this study format,
+we will steer the course through a series of self-contained units around programming, visualization, and simulation,
+which may be your interest for your future endeavor.
+This course tries to fulfill this arrangement by introducing some tools and demonstrating their capacity.
 
-4 units are planned for the first 4 weeks. Each unit will contain at least 2 parts. The 1st part will discuss general practice and methodology around software engineering and this serves as the general topic across the board. The second part will introduce some tools or libraries and demonstrate how to use them. It’s highly recommended that you should do your own research about this tool or library before the class and get familiar with it. The class time will be the Q/A time and I will stay online to answer your question through Github issues, QQ, and Wechat.
+A quck list of topics:
 
-## Unit 1: Introduction to Software Engineering and Git
+    1. [Computer and software](#Computer-and-Software)
+    2. [Machine learning](#机器学习基础)
+    3. [Motor](#Motor)
+
+
+## Motor
+
+Electrical motors are used everywhere to drive the world forward.
+In this section, we will try to build a motor and a driver for it.
+
+### Build a motor driver
+
+There are several types of electrical motors and different motor needs a different driver circuit to supply the power they run on.
+There are AC motors, BLDC motor, and other types of motor, we will first start to drive DC motors with brush.
+
+#### Drive a brush DC motor ####
+
+The introduction for the DC motor driver project is presented here:
+
+    [pdf for introduction to the brush DC motor driver](https://github.com/pipehappy1/SES2020spring/blob/master/dc_motor/intro.pdf)
+
+The videos that show how to use KiCAD to produce a PCB board is listed here:
+
+    1. Plot the schematic design: [@acfun](https://www.acfun.cn/v/ac20783731), [@bilibili](https://www.bilibili.com/video/BV1Ea411c73K/),
+    2. Assign footprint for the component: [@acfun](https://www.acfun.cn/v/ac20784691), [@bilibili](https://www.bilibili.com/video/BV12T4y1M7ez/).
+    3. Layout the PCB: [@acfun](https://www.acfun.cn/v/ac20864316), [@bilibili](https://www.bilibili.com/video/BV115411G7ef/).
+
+Please do you research and find proper components to build up the PCB board for 4-channel DC driver.
+
+### Build a motor
+
+
+## Computer and Software
+
+4 units are planned for the first 4 weeks.
+Each unit will contain at least 2 parts.
+The 1st part will discuss general practice and methodology around software engineering and this serves as the general topic across the board.
+The second part will introduce some tools or libraries and demonstrate how to use them.
+It’s highly recommended that you should do your own research about this tool or library before the class and get familiar with it.
+The class time will be the Q/A time and I will stay online to answer your question through Github issues, QQ, and Wechat.
+
+### Unit 1: Introduction to Software Engineering and Git
 
 In the introduction to software engneering, we will cover the concept of software, software engineering, and software crisis. We also show the basic workflow of Git, the distributed version control system.
 
-## Unit 2: Agile Programming
+### Unit 2: Agile Programming
 
 We will have 2 parts in this unit. In the first part, we go through an agile method called Scrum. In this second part, we will talk about Python.
 
-## Unit 3: Object Oriented Design and Programming and Midterm Project
+### Unit 3: Object Oriented Design and Programming and Midterm Project
 
 We will introduce the object oriented design and programming pattern in this unit. A midterm project is also in this unit.
 
-## Unit 4: Unit Test
+### Unit 4: Unit Test
 
 This unit is about software verification and validation method, focusing on unit test.
 
-## Final Project:
+### Final Project:
 
 Please form a team with 2~3 members and pick a project from http://www.cse.msu.edu/~cse231/PracticeOfComputingUsingPython/.
 
-## Q&A
+### Q&A
 
 Q: Do we have a syllabus for this course? What's the goal of this course?
 
