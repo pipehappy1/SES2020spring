@@ -36,10 +36,10 @@ The introduction for the DC motor driver project is presented here:
 The videos that show how to use KiCAD to produce a PCB board is listed here:
 
 1. Plot the schematic design: [@acfun](https://www.acfun.cn/v/ac20783731), [@bilibili](https://www.bilibili.com/video/BV1Ea411c73K/),
-2. Assign footprint for the component: [@acfun](https://www.acfun.cn/v/ac20784691), [@bilibili](https://www.bilibili.com/video/BV12T4y1M7ez/).
+2. Assign the footprint for the component: [@acfun](https://www.acfun.cn/v/ac20784691), [@bilibili](https://www.bilibili.com/video/BV12T4y1M7ez/).
 3. Layout the PCB: [@acfun](https://www.acfun.cn/v/ac20864316), [@bilibili](https://www.bilibili.com/video/BV115411G7ef/).
 
-Please do you research and find proper components to build up the PCB board for 4-channel DC driver.
+Please do you research and find proper components to build up the PCB board for a 4-channel DC driver.
 
 ### Build a motor
 
