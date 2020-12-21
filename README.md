@@ -12,7 +12,7 @@ This course tries to fulfill this arrangement by introducing some tools and demo
 
 A quck list of topics:
 
-1. [Computer and software](#Computer-and-Software)
+1. [Software development](#Software-Development)
 2. [Machine learning](#机器学习基础)
 3. [Motor](#Motor)
 
@@ -44,7 +44,7 @@ Please do you research and find proper components to build up the PCB board for 
 ### Build a motor
 
 
-## Computer and Software
+## Software Development
 
 4 units are planned for the first 4 weeks.
 Each unit will contain at least 2 parts.
