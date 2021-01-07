@@ -15,6 +15,18 @@ A quck list of topics:
 1. [Software development](#Software-Development)
 2. [Machine learning](#机器学习基础)
 3. [Motor](#Motor)
+4. [Call For Participation](#Call-For-Participation)
+
+## Call For Participation
+
+### Knowledge Graph System Development for Mesoscopic Scale Neuroscience Research ###
+
+
+### Efficient GPU Memory Allocator Development in Rust ###
+
+### Text to Image Conversion for Fast Multimedia Content Prototying ###
+
+### Lightweight High Torque Density Induction Motor Design ###
 
 
 ## Motor
