@@ -21,6 +21,8 @@ A quck list of topics:
 
 ### Knowledge Graph System Development for Mesoscopic Scale Neuroscience Research ###
 
+题目：介观神经科学研究的知识图谱系统开发
+
 With the progress of the whole brain mesoscopic scale imaging system, such as MOST,
 studies on the brain connectome go to the next generation focusing on the finer brain structures.
 However, previous research results about individual brain structure are often scattered around 
@@ -31,7 +33,16 @@ just as the general search engine.
 The corpus and the specific trained Bidirectional Encoder Representations from Transformers (BERT)
 model are ready and waiting for you to present them to broader audience.
 
+You may consider to join if you are interested/proficient in web development, natural language processing, and knowledge graph.
+
+A team of 3 or 4 students is preferred for this project.
+
+Project time span is expected to be 4 months part time.
+
+
 ### Efficient GPU Memory Allocator Development in Rust ###
+
+题目：基于Rust的高效GPU内存分配系统开发
 
 Deep learning is in its period of prosperity and the process of producing the production-ready models
 have evolved into the front end and the back end, 
@@ -42,7 +53,16 @@ with a GPU memory allocator to allow it to run efficiently on the GPU side
 and you will get yourself familar with the high performance GPU programming.
 Rust is a segfault-free C-like-speed programming language even with a naive implementation.
 
+You may consider to join if you are interested/proficient in Rust, deep learning, and GPU programming.
+
+A single person is preferred for this project.
+
+Project time span is expected to be 8 months part time.
+
+
 ### Text to Image Conversion for Fast Multimedia Content Prototying ###
+
+题目：用于多媒体内容原型生成的文图转换方法研究
 
 Text and Image often come together in the multimedia content supply.
 There are already amazing researches on the image-to-text conversion (image captioning).
@@ -52,7 +72,11 @@ You are invited to join this project to develop a prototype system for the text-
 The plan starts with the existing public baseline model and 
 develops a model for a specific application scenario.
 
+You may consider to join if you are interested/proficient in deep learning, natural language processing, and computer vision.
 
+A team of 6 is preferred for this project.
+
+Project time span is expected to be 12 months part time.
 
 
 
