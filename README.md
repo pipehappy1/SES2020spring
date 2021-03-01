@@ -15,7 +15,15 @@ A quck list of topics:
 1. [Software development](#Software-Development)
 2. [Machine learning](#机器学习基础)
 3. [Motor](#Motor)
-4. [Call For Participation](#Call-For-Participation)
+4. [Smart Car](#Smart-Car)
+5. [Call For Participation](#Call-For-Participation)
+
+## Smart Car
+
+Here is the slide:
+
+[pdf for introduction to the smart car](https://github.com/pipehappy1/SES2020spring/blob/master/car/introV2.pdf)
+
 
 ## Call For Participation
 
