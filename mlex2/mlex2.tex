@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{mathtools}
+
+
+\begin{document}
+\title{Autorouting with deep learning}
+\maketitle
+
+{\textbf Problem statement:}
+On a $(w=5, l=5)$ board, there are $n=30$ components.
+The width $w$ and length $l$ of these components follows
+a Gaussian distribution of $N(\mu=0.5, \sigma^2=0.5)$ indepedently.
+All pads/holes are even spaced and aligned at the two sides of these components, as DIP.
+The number of pads for one component
+follows a Poisson distribution with $P(\lambda = 6)$ per unit length of the component perimeter (You can remove zero and single pad samples).
+The netlist is formed by a partition among all the pads.
+With fixed number of partitions $k$, probability for each partition $\pi = (\pi_1, \dots, \pi_K)$ is sampled from the Dirichlet distribution with parameter $(\theta_1, \dots, \theta_k)$.
+Then each pad takes values in $(1, \dots, k)$ withe probability $\pi$.
+This is the Dirichlet-multinomial random partition generation.
+
+{\textbf Layout the route:}
+Your task is to build a model to route the netlist by restrictions, such as no route sould be crossed.
+You can have multiple layer PCB board and vias.
+
+
+
+ \end{document}
+
+
+\begin{description}
+\item [item 1] say 1
+\item [item 2] say 2
+\item [item 3] say 3
+\end{description}
+  
+
+\begin{figure*}
+  \centering
+  \begin{subfigure}[b]{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.9\textwidth]{fig/theme_relu_small.jpg}
+    \caption{ReLU in a convolutional neural network}
+    \label{fig:relunet}
+  \end{subfigure}%
+  ~
+  \begin{subfigure}[b]{0.5\textwidth}
+    \centering
+    \includegraphics[width=0.9\textwidth]{fig/theme_sin_small.jpg}
+    \caption{Sin in a convolutional neural network}
+    \label{fig:sinnet}
+  \end{subfigure}
+% figure caption is below the figure
+  \caption{One layer of neural network is shown in the figure. The input is feed through
+    convolutional filter and followed by a nonlinear activation unit.
+    The convolutional neural neural network is often used with ReLU
+    and we suggests to use periodic function such as sin function shown in the right figure
+  as the nonlinear unit.}
+\label{fig:theme}       % Give a unique label
